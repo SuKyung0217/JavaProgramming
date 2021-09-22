@@ -7,6 +7,6 @@ public class Light {
 		lightspeed = 300000;
 		distance = lightspeed * 365L * 24 * 60 * 60;
 		
-		System.out.println("ºûÀÌ 1³â µ¿¾È °¡´Â °Å¸® : " + distance + "km");
+		System.out.println("ÂºÃ»Ã€ÃŒ 1Â³Ã¢ ÂµÂ¿Â¾Ãˆ Â°Â¡Â´Ã‚ Â°Ã…Â¸Â® : " + distance + "km");
 	}
 }
