@@ -6,7 +6,7 @@ public class CircleArea {
 		Scanner scanner =  new Scanner(System.in);
 		double radius,area;
 		
-		System.out.print("¿øÀÇ ¹İÁö¸§ ÀÔ·Â : ");
+		System.out.print("Â¿Ã¸Ã€Ã‡ Â¹ÃÃÃ¶Â¸Â§ Ã€Ã”Â·Ã‚ : ");
 		radius = scanner.nextDouble();
 		
 		area = Math.PI * radius * radius;
