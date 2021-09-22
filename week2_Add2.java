@@ -6,10 +6,10 @@ public class Add2 {
 		Scanner input = new Scanner(System.in);
 		int x, y, sum;
 		
-		System.out.print("Ã¹¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì²«ë²ˆì§¸ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		x = input.nextInt();
 		
-		System.out.print("µÎ¹øÂ° ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ë‘ë²ˆì§¸ ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		y = input.nextInt();
 		
 		sum = x + y;
