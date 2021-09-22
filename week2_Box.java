@@ -6,17 +6,17 @@ public class Box {
 		Scanner scn = new Scanner(System.in);
 		double w, h, area, perimeter;
 		
-		System.out.println("»ç°¢ÀÇ ³Êºñ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.println("ì‚¬ê°ì˜ ë„ˆë¹„ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		w = scn.nextDouble();
 		
-		System.out.println("»ç°¢ÀÇ ³ôÀÌ ÀÔ·ÂÇÏ½Ã¿À : ");
+		System.out.println("ì‚¬ê°ì˜ ë†’ì´ ì…ë ¥í•˜ì‹œì˜¤ : ");
 		h = scn.nextDouble();
 		
 		area = w * h;
 		perimeter = 2.0 * (w + h);
 		
-		System.out.println("»ç°¢ÇüÀÇ ¸éÀûÀº " + area);
-		System.out.println("»ç°¢ÇüÀÇ µÑ·¹´Â " + perimeter);
+		System.out.println("ì‚¬ê°í˜•ì˜ ë©´ì ì€ " + area);
+		System.out.println("ì‚¬ê°í˜•ì˜ ë‘˜ë ˆëŠ” " + perimeter);
 		
 		scn.close();
 	}
