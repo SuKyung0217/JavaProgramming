@@ -11,8 +11,8 @@ public class QuadraticEq {
 		double r1 = (-b + sqr) / 2.0;
 		double r2 = (-b - sqr) / 2.0;
 		
-		System.out.println("±ÙÀº " + r1);
-		System.out.println("±ÙÀº " + r2);
+		System.out.println("Ä…Å®Å”ÅŸ " + r1);
+		System.out.println("Ä…Å®Å”ÅŸ " + r2);
 		
 	}
 
