@@ -1,2 +1,4 @@
 Javaprogramming_LAB_practice
 2021.09.22
+
+동의과학대학교 자바프로그래밍 연습문제를 정리했습니다.
