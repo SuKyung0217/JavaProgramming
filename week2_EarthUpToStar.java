@@ -10,7 +10,7 @@ public class EarthUpToStar {
 		secs = distance/light_speed;
 		
 		double light_year = secs/(60.0*60.0*24.0*365.0);
-		System.out.println("°É¸®´Â ½Ã°£Àº " + light_year + "±¤³âÀÔ´Ï´Ù.");
+		System.out.println("ê±¸ë¦¬ëŠ” ì‹œê°„ì€ " + light_year + "ê´‘ë…„ì…ë‹ˆë‹¤.");
 	}
 
 }
