@@ -7,7 +7,7 @@ public class AreaTest {
 		radius = 5.0;
 		area = 3.141592 * radius * radius;
 		
-		System.out.println("¿øÀÇ ¸éÀûÀº " + area);
+		System.out.println("Å¼Å™Å”Ã‡ Â¸Ã©Å”Å±Å”ÅŸ " + area);
 
 	}
 
