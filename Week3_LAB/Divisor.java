@@ -1,13 +1,14 @@
+import java.util.Scanner;
 import java.util.Iterator;
 
 public class Divisor {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.print("¾çÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À ");
+		System.out.print("ì–‘ì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤ ");
 		int n = scan.nextInt();
 		
-		System.out.println(n + "ÀÇ ¾à¼ö´Â ´ÙÀ½°ú °°½À´Ï´Ù.");
+		System.out.println(n + "ì˜ ì•½ìˆ˜ëŠ” ë‹¤ìŒê³¼ ê°™ìŠµë‹ˆë‹¤.");
 		for (int i = 1; i <= n; ++i) {
 			if(n % 1 == 0)
 				System.out.print(" " + i);
