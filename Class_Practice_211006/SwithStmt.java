@@ -8,10 +8,10 @@ public class SwithStmt {
 		Scanner scanner = new Scanner(System.in);
 		int month, year, days = 0;
 		
-		System.out.println("³âµµÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. :");
+		System.out.println("ë…„ë„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. :");
 		year = scanner.nextInt();
 		
-		System.out.println("´ŞÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä. :");
+		System.out.println("ë‹¬ì„ ì…ë ¥í•´ì£¼ì„¸ìš”. :");
 		month = scanner.nextInt();
 		
 		switch(month) {
@@ -35,7 +35,7 @@ public class SwithStmt {
 			else 
 				days = 28;
 		}
-		System.out.println(year+"³â "+month+"´ŞÀº "+days+"ÀÏÀÔ´Ï´Ù.");
+		System.out.println(year+"ë…„ "+month+"ë‹¬ì€ "+days+"ì¼ì…ë‹ˆë‹¤.");
 	}
 }
 
