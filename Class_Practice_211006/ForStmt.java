@@ -11,26 +11,26 @@ public class ForStmt {
 		for (int i = 1; i <= 10; i++) {
 			hap += i;
 		}
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ ÇÕ = " +hap);
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ í•© = " +hap);
 		
 		Scanner scn = new Scanner(System.in);
 		int strt, end;
 		hap = 0;
-		System.out.println("½ÃÀÛ ¼ıÀÚ : ");
+		System.out.println("ì‹œì‘ ìˆ«ì : ");
 		strt = scn.nextInt();
-		System.out.println("Á¾·á ¼ıÀÚ : ");
+		System.out.println("ì¢…ë£Œ ìˆ«ì : ");
 		end = scn.nextInt();
 		for (int i = strt; i <= end; i++) {
 			hap += i;
 		}
-		System.out.println(strt+"ºÎÅÍ"+ end+" ±îÁöÀÇ ÇÕ = " +hap);
+		System.out.println(strt+"ë¶€í„°"+ end+" ê¹Œì§€ì˜ í•© = " +hap);
 		
 		hap = 0;
 		for (int i = strt; i <= end; i++) {
 			if(i%2==0)
 				hap += i;
 		}
-		System.out.println(strt+"ºÎÅÍ"+ end+" ±îÁöÀÇ ¼ö Áß¿¡ Â¦¼ö ÇÕ = " +hap);
+		System.out.println(strt+"ë¶€í„°"+ end+" ê¹Œì§€ì˜ ìˆ˜ ì¤‘ì— ì§ìˆ˜ í•© = " +hap);
 		
 		hap = 0;
 		for (int i = strt; i <= end; i++) {
@@ -38,7 +38,7 @@ public class ForStmt {
 				continue;
 			hap += i;
 		}
-		System.out.println(strt+"ºÎÅÍ"+ end+" ±îÁöÀÇ ¼ö Áß¿¡ 7ÀÇ ¹è¼ö¸¦ »ı·«ÇÑ ÇÕ = " +hap);
+		System.out.println(strt+"ë¶€í„°"+ end+" ê¹Œì§€ì˜ ìˆ˜ ì¤‘ì— 7ì˜ ë°°ìˆ˜ë¥¼ ìƒëµí•œ í•© = " +hap);
 		
 		int i;
 		hap = 0;
@@ -47,7 +47,7 @@ public class ForStmt {
 			if(hap > 30)
 				break;
 		}
-		System.out.println("1ºÎÅÍ"+ i +" ±îÁöÀÇ ÇÕ" +hap);
+		System.out.println("1ë¶€í„°"+ i +" ê¹Œì§€ì˜ í•©" +hap);
 		
 		
 	}
