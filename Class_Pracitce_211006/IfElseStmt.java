@@ -8,14 +8,14 @@ public class IfElseStmt {
 		Scanner scanner = new Scanner(System.in);
 		int age;
 		
-		System.out.println("³ªÀÌ ÀÔ·Â ÇÏ¼¼¿ä! :");
+		System.out.println("ë‚˜ì´ ì…ë ¥ í•˜ì„¸ìš”! :");
 		age = scanner.nextInt();
 		
 		int ent = 100000;
 		if(age < 19)
 			ent = 50000;
 		
-		System.out.println("³ªÀÌ :" + age + " ÀÔÀå·á = " + ent);
+		System.out.println("ë‚˜ì´ :" + age + " ì…ì¥ë£Œ = " + ent);
 	}
 
 }
