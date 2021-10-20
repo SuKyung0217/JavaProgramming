@@ -15,8 +15,8 @@ public class WhileStmt {
 			hap += i;
 			i++;
 		}
-		System.out.println("1ºÎÅÍ 10±îÁöÀÇ ÇÕ :");
-		System.out.println("Á¾·á ¼ıÀÚ¸¦ ÀÔ·Â ÇÏ¼¼¿ä! :");
+		System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ í•© :");
+		System.out.println("ì¢…ë£Œ ìˆ«ìë¥¼ ì…ë ¥ í•˜ì„¸ìš”! :");
 		end = scanner.nextInt();
 		
 		hap = 0;
@@ -25,8 +25,8 @@ public class WhileStmt {
 			hap += i;
 			i++;
 		}
-		System.out.println("Á¾·á ¼ıÀÚ¸¦ ÀÔ·Â ÇÏ¼¼¿ä! :");
-		System.out.println("1ºÎÅÍ"+end+"±îÁöÀÇ ÇÕ :");
+		System.out.println("ì¢…ë£Œ ìˆ«ìë¥¼ ì…ë ¥ í•˜ì„¸ìš”! :");
+		System.out.println("1ë¶€í„°"+end+"ê¹Œì§€ì˜ í•© :");
 		
 		
 //		int i;
@@ -36,7 +36,7 @@ public class WhileStmt {
 //			if(hap > 30)
 //				break;
 //		}
-//		System.out.println("1ºÎÅÍ"+ i +" ±îÁöÀÇ ÇÕ" +hap);
+//		System.out.println("1ë¶€í„°"+ i +" ê¹Œì§€ì˜ í•©" +hap);
 	
 
 	
@@ -49,7 +49,7 @@ public class WhileStmt {
 			}
 		hap += i;
 		}
-	System.out.println("1ºÎÅÍ 10±îÁöÀÇ ¼ö Áß¿¡ 7ÀÇ ¹è¼ö »ı·«ÇÑ ÇÕ = " + hap);
+	System.out.println("1ë¶€í„° 10ê¹Œì§€ì˜ ìˆ˜ ì¤‘ì— 7ì˜ ë°°ìˆ˜ ìƒëµí•œ í•© = " + hap);
 	}
 }
 
