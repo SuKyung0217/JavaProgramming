@@ -8,13 +8,13 @@ public class Year {
 		Scanner scanner = new Scanner(System.in);
 		int year;
 		
-		System.out.println("³âµµ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä. :");
+		System.out.println("ë…„ë„ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš”. :");
 		year = scanner.nextInt();
 		
 		if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-			System.out.println("À±³âÀÔ´Ï´Ù.");
+			System.out.println("ìœ¤ë…„ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("Æò³âÀÔ´Ï´Ù.");
+			System.out.println("í‰ë…„ì…ë‹ˆë‹¤.");
 		}
 		
 	}
