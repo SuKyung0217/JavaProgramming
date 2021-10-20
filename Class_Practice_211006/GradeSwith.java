@@ -9,7 +9,7 @@ public class GradeSwith {
 		int score = 0;
 		char grade ='A';
 		
-		System.out.println("Á¡¼ö ÀÔ·Â ÇÏ¼¼¿ä! :");
+		System.out.println("ì ìˆ˜ ì…ë ¥ í•˜ì„¸ìš”! :");
 		score = scanner.nextInt();
 		
 		switch(score/10) {
@@ -25,7 +25,7 @@ public class GradeSwith {
 		default:
 			grade = 'F';
 		}
-		System.out.println("Á¡¼ö´Â " +score+" ÀÌ°í µî±ŞÀº "+grade+"ÀÔ´Ï´Ù.");
+		System.out.println("ì ìˆ˜ëŠ” " +score+" ì´ê³  ë“±ê¸‰ì€ "+grade+"ì…ë‹ˆë‹¤.");
 
 	}
 
